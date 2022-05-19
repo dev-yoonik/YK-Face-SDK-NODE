@@ -13,6 +13,10 @@ class ImageUtils {
         return this.fs.readFileSync(file, 'base64');
     }
 
+    /**
+     * function to encode image path/url to base64 encoded string
+     * @param {String} file -  image to convert (required)
+     */
     async imagePath_base64_encode(path) {
         let image = await this.axios.get(path, { responseType: 'arraybuffer' });
         return Buffer.from(image.data).toString('base64');

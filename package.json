@@ -1,8 +1,8 @@
 {
   "name": "yoonik-face-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functionalities for biometric processing (detection, verification and identification) for YooniK.Face.",
-  "main": "",
+  "main": "./src/initImporter.js",
   "keywords": [
     "Yoonik",
     "Face Authentication",

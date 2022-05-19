@@ -1,7 +1,7 @@
 const apiKey = "YOUR-X-API-KEY";
 const baseURL = "YOUR-API-ENDPOINT";
+const { Face, TemplateRequest} = require('yoonik-face-api');
 
-const { Face, TemplateRequest} = require('./../../src/initImporter');
 const payload = new TemplateRequest();
 const client = new Face({apiKey, baseURL});
  

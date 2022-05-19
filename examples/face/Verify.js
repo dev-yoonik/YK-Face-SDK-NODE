@@ -1,6 +1,6 @@
 const apiKey = "YOUR-X-API-KEY";
 const baseURL = "YOUR-API-ENDPOINT";
-const { Face, VerifyRequest} = require('./../../src/initImporter');
+const { Face, VerifyRequest} = require('yoonik-face-api');
 
 const client = new Face({apiKey, baseURL});
 const payload = new VerifyRequest();

@@ -1,7 +1,7 @@
 const apiKey = "YOUR-X-API-KEY";
 const baseURL = "YOUR-API-ENDPOINT";
+const { Face } = require('yoonik-face-api');
 
-const { Face } = require('./../../src/initImporter');
 const client = new Face({apiKey, baseURL});
 
 (async () => {
