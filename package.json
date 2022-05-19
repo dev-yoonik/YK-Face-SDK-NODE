@@ -1,0 +1,25 @@
+{
+  "name": "yoonik-face-api",
+  "version": "1.0.0",
+  "description": "Functionalities for biometric processing (detection, verification and identification) for YooniK.Face.",
+  "main": "",
+  "keywords": [
+    "Yoonik",
+    "Face Authentication",
+    "Javascript",
+    "Node",
+    "sdk",
+    "api"
+  ],
+  "author": "Yoonik dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-yoonik/YK-Face-SDK-NODE.git"
+  },
+  "homepage": "https://www.yoonik.me",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "node-fetch": "^2.6.1"
+  }
+}
